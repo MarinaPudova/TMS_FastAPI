@@ -4,10 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+sqlalchemy = "*"
 fastapi = "*"
 uvicorn = {extras = ["standard"], version = "*"}
 pydantic = "*"
-sqlalchemy = "*"
+requests = "*"
 
 [dev-packages]
 
